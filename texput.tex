@@ -1,17 +1,19 @@
 % Emacs, this is -*-latex-*-
 
-\title{Digital Images and Videos}
+\title{Digital Images and Videos. Some notation.}
 
 \maketitle
 
 \tableofcontents
 
 \section{Images}
-An image can be described as a
+A \href{https://en.wikipedia.org/wiki/Digital_data}{digital}
+\href{https://en.wikipedia.org/wiki/Digital_image}{image} can be
+described as a
 \href{https://en.wikipedia.org/wiki/Matrix_(mathematics)}{matrix} of
 \href{https://en.wikipedia.org/wiki/Pixel}{pixels} (PIcture X-ray
-ELementS), arranged in a regular 2D grid. Such sequences are
-usully captured by a
+ELementS), arranged in a regular 2D grid. Such sequences are usully
+captured by a
 \href{https://en.wikipedia.org/wiki/Charge-coupled_device}{CCD (Charge
   Coupled Device)}. In maths, an image can be denoted by
 \begin{equation}
@@ -26,7 +28,10 @@ domain}, with dimension (number of pixel components)
 $k$~\cite{burger2016digital}.
 
 \section{Videos}
-In a similar way, a sequence of frames can be denoted by
+In a similar way, a
+\href{https://en.wikipedia.org/wiki/Sequence}{sequence} of
+\href{https://en.wikipedia.org/wiki/Film_frame}{frames}\footnote{Also called \href{https://en.wikipedia.org/wiki/Group_of_pictures}{pictures}.} (or a
+\href{https://en.wikipedia.org/wiki/Video}{video}) can be denoted by
 \begin{equation}
   {\mathbf V} = \{{\mathbf V}_{t,y,x}\in\mathbb{P}^{k}, (t,y,x)\in\mathbb{N}^3\} = \{{\mathbf I}_t\},
   \label{eq:video}
